@@ -1,7 +1,9 @@
 # Test project
 
 Small project for testing a few approaches.
+
 Displays standings for selected football league/cup and season.
+
 Displays players for selected teams.
 
 
@@ -66,6 +68,7 @@ It works even for screens in different modules. You need to have only constant t
 ## UseCase
 For UseCase I tried to use the approach from this article:
 https://dladukedev.com/articles/042_avoid_useless_cases_part_2/
+
 UseCase is just an interface and repo implements it.
 
 I wanted to check it somewhere, and I did it here. It doesn't look like a much better solution. We need to create and import invoke extension. And we need to create dagger Binds method to create an UseCase instance.
